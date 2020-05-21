@@ -1,3 +1,5 @@
+import pandas as pd
+
 mf_find = "HDFC Children Gift Fund-Savings"
 with open("Mutual Fund Schemes Data.txt", "r")as mf:
     columns_dict = {}
